@@ -31,6 +31,7 @@ This app template is provided under the [MIT License](https://github.com/OfficeD
 
 Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Solution-overview) to read about what the app does and how it works.
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcagrimunyas%2Fteams-faqplus-bot%2Fmaster%2FDeployment%2Fazuredeploy.json)
 When you're ready to try out FAQ Plus, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Deployment-guide).
 
 ## Feedback
