@@ -3,6 +3,8 @@
 | [Documentation](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Deployment-guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Solution-overview) |
 | ---- | ---- | ---- |
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcagrimunyas%2Fteams-faqplus-bot%2Fmaster%2FDeployment%2Fazuredeploy.json)
+
 Chatbots are an easy way to provide answers to frequently asked questions by users. However, most chatbots fail to engage with users in a meaningful way because there is no human in the loop when the chatbot fails.  
 
 FAQ Plus bot is a friendly Q&A bot that brings a human in the loop when it is unable to help. One can ask the bot a question and the bot responds with an answer if it's in the knowledge base. If not, the bot allows the user to submit a query which then gets posted in a pre-configured team of experts who are help to provide support by acting upon the notifications from within their Team itself. 
@@ -31,7 +33,6 @@ This app template is provided under the [MIT License](https://github.com/OfficeD
 
 Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Solution-overview) to read about what the app does and how it works.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcagrimunyas%2Fteams-faqplus-bot%2Fmaster%2FDeployment%2Fazuredeploy.json)
 When you're ready to try out FAQ Plus, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-faqplusplus-app/wiki/Deployment-guide).
 
 ## Feedback
