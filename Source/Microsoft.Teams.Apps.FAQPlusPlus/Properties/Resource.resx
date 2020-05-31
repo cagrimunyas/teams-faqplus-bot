@@ -220,8 +220,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
-    <value>I couldn't find anything apt for your request. Do you want me to ask an expert?</value>
-    <comment>Message when user asks random question to the bot.</comment>
+    <value>Soruna uygun bir cevap bulamadım. Sorunu bir uzmana yönlendirmemi ister misin?</value>
+    <comment>Bot cevap veremeyince döndürülen mesaj.</comment>
   </data>
   <data name="QuestionAskedFactTitle" xml:space="preserve">
     <value>Question asked:</value>
