@@ -320,32 +320,32 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>"Closed" format string, {0} is the name of the user who closed the ticket</comment>
   </data>
   <data name="SMEAssignedStatus" xml:space="preserve">
-    <value>This request is now assigned. Assigned to {0}.</value>
-    <comment>Message posted to the thread when the ticket is assigned. {0} = name of SME who assigned the request.</comment>
+    <value>Bu istek birine atandı. Atanan kişi: {0}.</value>
+    <comment>Uzman ekip ticket atandı bilgisi</comment>
   </data>
   <data name="SMEClosedStatus" xml:space="preserve">
-    <value>This request is now closed. Closed by {0}.</value>
-    <comment>Message posted to the thread when the ticket is closed. {0} = name of SME who closed the request.</comment>
+    <value>Bu istek kapatıldı. Kapatan: {0}.</value>
+    <comment>Uzman ekip ticket kapatıldı bilgisi</comment>
   </data>
   <data name="SMEOpenedStatus" xml:space="preserve">
-    <value>This request is now unassigned. Last updated by {0}. </value>
-    <comment>Message posted to the thread when the ticket is reopened. {0} = name of SME who reopened the request.</comment>
+    <value>Bu istek kimseye atanmadı. Son güncelleyen: {0}. </value>
+    <comment>Uzman ekip ticket açıldı bilgisi</comment>
   </data>
   <data name="NonApplicableString" xml:space="preserve">
     <value>N/A</value>
     <comment>Not applicable is used in scenarios like- ask an expert or share app feedback bot menu command where there is no question and answer from QnA service and to reflect the same in respective fields N/A is used.</comment>
   </data>
   <data name="AssignedTicketUserNotification" xml:space="preserve">
-    <value>Your question has been assigned to an expert. They'll respond to you directly with a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is assigned to an expert.</comment>
+    <value>Sorunuz cevaplanmak üzere bir uzmana atandı. İlgili uzman size bir mesaj ile ulaşacaktır.</value>
+    <comment>Son kullanıcı ticket atandı bilgisi</comment>
   </data>
   <data name="ClosedTicketUserNotification" xml:space="preserve">
-    <value>This request has been closed. Ask an expert again if you still need more assistance.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is closed.</comment>
+    <value>İsteğiniz sonuçlandırılmıştır. Eğer hala desteğe ihtiyaç duyuyorsanız bir uzmana sor'a tıklayın.</value>
+    <comment>Son kullanıcı ticket kapatıldı bilgisi</comment>
   </data>
   <data name="ReopenedTicketUserNotification" xml:space="preserve">
-    <value>Your request is open again. An expert will directly send you a chat message.</value>
-    <comment>Notification text sent to the user who opened a ticket, when the ticket is reopened.</comment>
+    <value>Uzmana sorduğunuz soru yeniden değerlendiriliyor. Bir uzman size direkt mesajla ulaşacaktır.</value>
+    <comment>Yeniden açılan ticket, son kullanıcı bildirim mesajı</comment>
   </data>
   <data name="SMEAttentionText" xml:space="preserve">
     <value>Everyone there is a new request coming in, please see the details below:</value>
