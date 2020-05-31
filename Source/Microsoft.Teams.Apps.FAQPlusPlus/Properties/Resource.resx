@@ -210,8 +210,8 @@
     <comment>Ekip turu carousel: Soru ticket içerik yazısı.</comment>
   </data>
   <data name="TakeATeamTourButtonText" xml:space="preserve">
-    <value>Team tour</value>
-    <comment>Action button which gives tour for the team on bot Functionalities.</comment>
+    <value>Uzman ekip turu</value>
+    <comment>Uzman ekip turu buton yazısı</comment>
   </data>
   <data name="WelcomeTeamCardContent" xml:space="preserve">
     <value>Hello team,   
@@ -240,8 +240,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Label for share feedback show card where user enters feedback on the displayed results in QnA response card.</comment>
   </data>
   <data name="TeamCustomMessage" xml:space="preserve">
-    <value>Hello, I don't support bot commands in the Team. Here is a quick tour of how I can help.</value>
-    <comment>When SME team member asks bot a questions- a message appears saying that team member is supposed to install the bot in personal scope.</comment>
+    <value>Merhaba, Henüz uzman ekip içerisinde özel komut mesajlarını destekleyemiyorum. Yeteneklerm hakkında bilgi almak için ekip turuna bakabilirsin.</value>
+    <comment>Uzman ekip özel mesaj cevap yazısı</comment>
   </data>
   <data name="AssignStatusTitle" xml:space="preserve">
     <value>Assign to me</value>
