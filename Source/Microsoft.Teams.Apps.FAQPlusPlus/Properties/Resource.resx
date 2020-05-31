@@ -142,16 +142,16 @@
     <comment>Suggests the user to ask question.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
-    <value>Share feedback</value>
-    <comment>Button text for share feedback show card in QnA response card.</comment>
+    <value>Geri bildirim paylaş</value>
+    <comment>Geri bildirim kartı buton yazısı.</comment>
   </data>
   <data name="DescriptionText" xml:space="preserve">
     <value>Tanım</value>
     <comment>Tanım kutusu label'ı</comment>
   </data>
   <data name="FeedbackDescriptionPlaceholderText" xml:space="preserve">
-    <value>Enter your feedback and supporting details here (500 characters max)</value>
-    <comment>Placeholder label where the user enters feedback in the text box.</comment>
+    <value>Geri bildiriminizi ve detaylarını giriniz (maks 500 karakter)</value>
+    <comment>Geri bildirim detay palaşım input placeholder'ı.</comment>
   </data>
   <data name="FeedbackHeaderText" xml:space="preserve">
     <value>Share app feedback</value>
@@ -288,24 +288,24 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>This text is used as title for question for expert type card.</comment>
   </data>
   <data name="ResultsFeedbackText" xml:space="preserve">
-    <value>Results feedback</value>
-    <comment>This text is used as title for results feedback card.</comment>
+    <value>Yanıt geri bildirimi</value>
+    <comment>Yanıt geri bildirim kartının başlık yazısıdır.</comment>
   </data>
   <data name="FeedbackAlertText" xml:space="preserve">
     <value>**{0}** has shared the feedback</value>
     <comment>Text in the SME feedback card, The placeholder {0} represents the name of the person sharing the feedback. The placeholder {1} represents the feedback type.</comment>
   </data>
   <data name="ShareFeedbackTitleText" xml:space="preserve">
-    <value>Share app feedback</value>
-    <comment>Title text of share feedback user carousel card.</comment>
+    <value>Uygulama geri bildirimi</value>
+    <comment>Uygulama geri bildirim kartının başlık yazısıdır.</comment>
   </data>
   <data name="AskAnExpertDisplayText" xml:space="preserve">
     <value>Uzmana Sor</value>
     <comment>Uzmana sor yazısı: Buton tıklandığında bota gönderilecek yazı.</comment>
   </data>
   <data name="ShareFeedbackDisplayText" xml:space="preserve">
-    <value>Share feedback</value>
-    <comment>Share feedback display text: text sent to the bot when share feedback button is clicked.</comment>
+    <value>Geri bildirim paylaş</value>
+    <comment>Geri bildirim paylaş: butona tıklandığında bota gönderilen yazı.</comment>
   </data>
   <data name="OpenStatusTitle" xml:space="preserve">
     <value>Unassigned</value>
@@ -431,24 +431,24 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Available factset in user notification and SME facing cards.</comment>
   </data>
   <data name="FeedbackRatingRequired" xml:space="preserve">
-    <value>Feedback (Required)</value>
-    <comment>Feedback(Required): label for the feedback rating dropdown.</comment>
+    <value>Geri bildirim (Zorunlu)</value>
+    <comment>Geri bildirim (Zorunlu): Geri bildirim seçenekleri için dropdown menü label'ı.</comment>
   </data>
   <data name="HelpfulRatingText" xml:space="preserve">
-    <value>Helpful</value>
-    <comment>Helpful: available feedback rating scale.</comment>
+    <value>Yararlı buldum</value>
+    <comment>Yararlı buldum geri bildirim liste seçeneği</comment>
   </data>
   <data name="NeedsImprovementRatingText" xml:space="preserve">
-    <value>Needs Improvement</value>
-    <comment>Needs improvement: available feedback rating scale.</comment>
+    <value>Biraz daha geliştirilmeli</value>
+    <comment>Biraz daha geliştirilmeli: geri bildirim liste seçeneği.</comment>
   </data>
   <data name="RatingTitle" xml:space="preserve">
     <value>Rating</value>
     <comment>Rating fact is used in SME facing feedback card to show the rating submitted by the user from the rating dropdown in share feedback card.</comment>
   </data>
   <data name="RatingMandatoryText" xml:space="preserve">
-    <value>Rating is mandatory</value>
-    <comment>Rating is mandatory , a warning message to the user when rating is not submitted in share feedback activity.</comment>
+    <value>Listeden bir seçenek seçin</value>
+    <comment>Zorunlu geri bildirin seçeneği için uyarı mesajı.</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
     <value>Take a tour</value>
@@ -463,8 +463,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Soru (Zorunlu): zorunlu input başlığı.</comment>
   </data>
   <data name="NotHelpfulRatingText" xml:space="preserve">
-    <value>Not helpful</value>
-    <comment>Unhelpful: available feedback rating scale.</comment>
+    <value>Yararlı değil</value>
+    <comment>Yararlı değil: geri bildirim liste seçeneği.</comment>
   </data>
   <data name="ViewArticleButtonText" xml:space="preserve">
     <value>View article</value>

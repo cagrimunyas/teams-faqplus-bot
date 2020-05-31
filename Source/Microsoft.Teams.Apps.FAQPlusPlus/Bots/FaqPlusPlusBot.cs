@@ -50,7 +50,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
         /// <summary>
         /// Feedback - text that renders share feedback card.
         /// </summary>
-        public const string ShareFeedback = "share feedback";
+        public const string ShareFeedback = "geri bildirim paylaş";
 
         private readonly TelemetryClient telemetryClient;
         private readonly IConfigurationProvider configurationProvider;
