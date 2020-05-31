@@ -163,7 +163,7 @@
   </data>
   <data name="StatusFactTitle" xml:space="preserve">
     <value>Durum: </value>
-    <comment>Uzman ticket kartı factset:Durum label'ı</comment>
+    <comment>ticket kartı factset:Durum label'ı</comment>
   </data>
   <data name="AskAnExpertButtonText" xml:space="preserve">
     <value>Uzmana Sor</value>
@@ -178,8 +178,8 @@
     <comment>1'e 1 chat başlatma butonu</comment>
   </data>
   <data name="NotificationCardContent" xml:space="preserve">
-    <value>I've shared your question with the related experts. They'll respond to you directly with a chat message.</value>
-    <comment>Confirmation message to the user upon asking question to the expert.</comment>
+    <value>Sorunu ilgili uzmanlarla paylaştım. Sana direkt mesaj ile cevap verecekler.</value>
+    <comment>Uzmana sor isteği onay mesajı</comment>
   </data>
   <data name="NotificationCardTitleText" xml:space="preserve">
     <value>Notification</value>
@@ -428,7 +428,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
   </data>
   <data name="DescriptionFact" xml:space="preserve">
     <value>Tanım:</value>
-    <comment>Uzman ticket kartı factset: Tanım label'ı.</comment>
+    <comment>ticket kartı factset: Tanım label'ı.</comment>
   </data>
   <data name="FeedbackRatingRequired" xml:space="preserve">
     <value>Geri bildirim (Zorunlu)</value>
@@ -455,8 +455,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Take a tour button available for the users on welcome card, through which user can take a tour on bot functionalities in personal scope. </comment>
   </data>
   <data name="TitleFact" xml:space="preserve">
-    <value>Title:</value>
-    <comment>Title fact is used to show the title entered by the user for his inquiry.</comment>
+    <value>Soru başlığı:</value>
+    <comment>ticket factset soru başlık label'ı</comment>
   </data>
   <data name="TitleRequiredText" xml:space="preserve">
     <value>Soru (zorunlu)</value>
