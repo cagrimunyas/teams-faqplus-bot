@@ -292,8 +292,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Yanıt geri bildirim kartının başlık yazısıdır.</comment>
   </data>
   <data name="FeedbackAlertText" xml:space="preserve">
-    <value>**{0}** has shared the feedback</value>
-    <comment>Text in the SME feedback card, The placeholder {0} represents the name of the person sharing the feedback. The placeholder {1} represents the feedback type.</comment>
+    <value>**{0}** geri bildirim paylaştı.</value>
+    <comment>Geri bildirim kartı uzman ekip başlık yazısı</comment>
   </data>
   <data name="ShareFeedbackTitleText" xml:space="preserve">
     <value>Uygulama geri bildirimi</value>
@@ -443,8 +443,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Biraz daha geliştirilmeli: geri bildirim liste seçeneği.</comment>
   </data>
   <data name="RatingTitle" xml:space="preserve">
-    <value>Rating</value>
-    <comment>Rating fact is used in SME facing feedback card to show the rating submitted by the user from the rating dropdown in share feedback card.</comment>
+    <value>Değerlendirme</value>
+    <comment>Geri bildirim kartı değerlendirme label'ı.</comment>
   </data>
   <data name="RatingMandatoryText" xml:space="preserve">
     <value>Listeden bir seçenek seçin</value>
@@ -471,7 +471,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Uzman ekibi ticket: verilen cevaı gör buton yazısı</comment>
   </data>
   <data name="SMEFeedbackHeaderText" xml:space="preserve">
-    <value>Feedback</value>
-    <comment>Title text for SME facing feedback card.</comment>
+    <value>Geri bildirim</value>
+    <comment>Geri bildirim kartı başlık yazısı.</comment>
   </data>
 </root>
