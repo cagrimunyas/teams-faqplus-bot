@@ -214,10 +214,10 @@
     <comment>Uzman ekip turu buton yazısı</comment>
   </data>
   <data name="WelcomeTeamCardContent" xml:space="preserve">
-    <value>Hello team,   
+    <value>Merhaba Ekip,   
 
-I am your friendly Q&amp;A bot that helps you provide support to people who interact with me and need more assistance.</value>
-    <comment>Welcome message when bot is added to a new team.</comment>
+Ben Q&amp;A bot. Son kullanıcıların sorularını cevaplamak ve sizle iletişimini sağlamak için buradayım.</value>
+    <comment>Bot uzman ekibe eklendiğinde gönderilen mesaj.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
     <value>Soruna uygun bir cevap bulamadım. Sorunu bir uzmana yönlendirmemi ister misin?</value>
@@ -451,8 +451,8 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Zorunlu geri bildirin seçeneği için uyarı mesajı.</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
-    <value>Take a tour</value>
-    <comment>Take a tour button available for the users on welcome card, through which user can take a tour on bot functionalities in personal scope. </comment>
+    <value>Tur at</value>
+    <comment>hoşgeldin kartında tur at butonu</comment>
   </data>
   <data name="TitleFact" xml:space="preserve">
     <value>Soru başlığı:</value>
