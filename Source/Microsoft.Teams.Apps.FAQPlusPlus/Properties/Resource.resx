@@ -126,19 +126,19 @@
     <comment>Uzmana Sor kartı başlığı</comment>
   </data>
   <data name="AskAnExpertText2" xml:space="preserve">
-    <value>...If my answer isn't satisfactory... I'll connect you to an expert.</value>
-    <comment>Helps the user in understanding there is an expert team to connect to.</comment>
+    <value>...Eğer soruna uygun cevabı veremezsem... Seni bir uzmana yönlendireceğim.</value>
+    <comment>Uzman bilgisini kullanıcıya anlatan carousel yazısı.</comment>
   </data>
   <data name="FeedbackText1" xml:space="preserve">
-    <value>Tell my team of experts how I'm doing so they can help me improve.</value>
-    <comment>Text suggests that user is invited to share his feedback on his experience using bot.</comment>
+    <value>Uzman ekibine benim hakkımda geri bildirim verip, daha iyi çalışmamı sağlayabilirsin.</value>
+    <comment>Kullanıcıyı bot hakkında geri bildirim vermeye teşvik eden carousel yazısı.</comment>
   </data>
   <data name="FunctionCardText1" xml:space="preserve">
-    <value>Ask a question</value>
-    <comment>Explains what bot does and possible questions.</comment>
+    <value>Soru Sor</value>
+    <comment>Bot fonksiyonlarını açıklayan carousel başlığı.</comment>
   </data>
   <data name="FunctionCardText2" xml:space="preserve">
-    <value>You can ask me a question by typing it in the chat box below  I'll try my best to answer it...</value>
+    <value>Bana aşağıdaki yazı ekranından mesaj atarak soru sorabilirsin. Soruna cevap vermek için elimden geleni yapacağım ...  </value>
     <comment>Suggests the user to ask question.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
@@ -186,28 +186,28 @@
     <comment>Confirmation card header text.</comment>
   </data>
   <data name="TeamChatHeaderText" xml:space="preserve">
-    <value>Initiate chat with end users</value>
-    <comment>Team carousel chat card header-title of the chat card.</comment>
+    <value>Son kullanıcılarla 1'e 1 görüşme başlatma</value>
+    <comment>Ekip turu carousel: 1:1 chat başlık yazısı.</comment>
   </data>
   <data name="TeamChatContent" xml:space="preserve">
-    <value>Click chat with user button to initiate a direct chat.</value>
-    <comment>Team carousel chat card content- SME team members can chat directly with the end users.</comment>
+    <value>Kullanıcıyla mesajlaş butonuna basarak konuşmayı direkt konuşmayı başlatabilirsiniz.</value>
+    <comment>Ekip turu carousel: 1:1 chat içerik yazısı</comment>
   </data>
   <data name="TeamNotificationHeaderText" xml:space="preserve">
-    <value>Receive notifications from end users</value>
-    <comment>Team carousel function card content- title of the chat card.</comment>
+    <value>Son kullanıcılardan bildirim alma</value>
+    <comment>Ekip turu carousel: bildirim başlık yazısı.</comment>
   </data>
   <data name="TeamNotificationContent" xml:space="preserve">
-    <value>You can see what users need help with.</value>
-    <comment>Team carousel function card content- team can take the question from the end users through bot.</comment>
+    <value>Kullanıcılarınız size ihtiyaç duyguduğunda buraya mesaj atacağım.</value>
+    <comment>TEkip turu carousel: Bildirim içerik yazısı.</comment>
   </data>
   <data name="TeamTicketSystemHeaderText" xml:space="preserve">
-    <value>Manage queries</value>
-    <comment>Title of the query carousel card- ticket system.</comment>
+    <value>Gelen uzman sorularını yönetme</value>
+    <comment>Ekip turu carousel: Soru ticket başlık yazısı.</comment>
   </data>
   <data name="TeamTicketSystemContent" xml:space="preserve">
-    <value>Mark requests assigned or closed to keep track of queries.</value>
-    <comment>Team carousel query card content- team can keep track of the user request.</comment>
+    <value>Gelen soruları birine atayarak ya da kapatıldı olarak işaretleyerek durumunu takip edebilirsiniz. </value>
+    <comment>Ekip turu carousel: Soru ticket içerik yazısı.</comment>
   </data>
   <data name="TakeATeamTourButtonText" xml:space="preserve">
     <value>Team tour</value>
