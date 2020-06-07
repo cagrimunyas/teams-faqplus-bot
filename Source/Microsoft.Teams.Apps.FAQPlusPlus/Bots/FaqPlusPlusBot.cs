@@ -7,10 +7,14 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text;
+    using System.Text.RegularExpressions;
     using System.Threading;
     using System.Threading.Tasks;
     using Microsoft.ApplicationInsights;
     using Microsoft.ApplicationInsights.DataContracts;
+    using Microsoft.Azure.Storage;
+    using Microsoft.Azure.Storage.Queue;
     using Microsoft.Bot.Builder;
     using Microsoft.Bot.Builder.AI.QnA;
     using Microsoft.Bot.Connector.Authentication;
@@ -60,6 +64,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
         private readonly MicrosoftAppCredentials microsoftAppCredentials;
         private readonly ITicketsProvider ticketsProvider;
         private readonly string expectedTenantId;
+        private readonly string storageconnector;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="FaqPlusPlusBot"/> class.
@@ -72,6 +77,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
         /// <param name="expectedTenantId">The expected Tenant Id (from configuration)</param>
         /// <param name="microsoftAppCredentials">Microsoft app credentials to use</param>
         /// <param name="ticketsProvider">The tickets provider.</param>
+        /// <param name="storageconnector">The storage connection string.</param>
+        /// 
         public FaqPlusPlusBot(
             TelemetryClient telemetryClient,
             IConfigurationProvider configurationProvider,
@@ -80,7 +87,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             string appBaseUri,
             string expectedTenantId,
             MicrosoftAppCredentials microsoftAppCredentials,
-            ITicketsProvider ticketsProvider)
+            ITicketsProvider ticketsProvider,
+            string storageconnector)
         {
             this.telemetryClient = telemetryClient;
             this.configurationProvider = configurationProvider;
@@ -90,6 +98,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             this.microsoftAppCredentials = microsoftAppCredentials;
             this.ticketsProvider = ticketsProvider;
             this.expectedTenantId = expectedTenantId;
+            this.storageconnector = storageconnector;
         }
 
         /// <inheritdoc/>
@@ -235,9 +244,24 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 return;
             }
 
+            string satexpr = @"(sat(\-?)( ?)(\d{3,}))";
+            Regex rg = new Regex(satexpr);
             string text = (message.Text ?? string.Empty).Trim().ToLower();
 
-            switch (text)
+            if (rg.IsMatch(text))
+            {
+                this.telemetryClient.TrackTrace($"New Sat request received from {message.From.Id}");
+                CloudStorageAccount storageAccount = CloudStorageAccount.Parse(storageconnector);
+                CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
+                CloudQueue queue = queueClient.GetQueueReference("satmessages");
+                queue.CreateIfNotExists();
+                CloudQueueMessage queueMessage = new CloudQueueMessage(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message)));
+                queue.AddMessage(queueMessage);
+                turnContext.SendActivityAsync(MessageFactory.Text("SAT bilgi isteğini aldım. En kısa sürede bilgi vereceğim!"));
+                return;
+            }
+
+                switch (text)
             {
                 case AskAnExpert:
                     this.telemetryClient.TrackTrace("Sending user ask an expert card");

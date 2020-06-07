@@ -57,7 +57,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus
                 this.Configuration["AppBaseUri"],
                 this.Configuration["TenantId"],
                 provider.GetRequiredService<MicrosoftAppCredentials>(),
-                provider.GetRequiredService<ITicketsProvider>()));
+                provider.GetRequiredService<ITicketsProvider>(),
+                this.Configuration["StorageConnectionString"]));
             services.AddApplicationInsightsTelemetry();
             services.AddSingleton<IQnAMakerFactory, QnAMakerFactory>();
             services.AddSingleton<ISearchService, SearchService>();
