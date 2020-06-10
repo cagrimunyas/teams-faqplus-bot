@@ -329,7 +329,7 @@ ASALocalRun/
 *.nvuser
 
 #Teams App Files
-Enduser/
-SME/
+manifest_enduser/
+manifest_sme/
 
 azuredeploy1.json

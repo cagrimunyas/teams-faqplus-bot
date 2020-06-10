@@ -264,8 +264,8 @@ Ben Q&amp;A bot. Son kullanıcıların sorularını cevaplamak ve sizle iletişi
     <comment>Uzman ticket kartı factset: Kapatıldı label'ı</comment>
   </data>
   <data name="DateCreatedDisplayFactTitle" xml:space="preserve">
-    <value>Created: </value>
-    <comment>Created: one of the available fact set in notification cards- created is the title for created date value.</comment>
+    <value>Oluşturuldu: </value>
+    <comment>Oluşturuldu: Bildirim kartı fact başlığı.</comment>
   </data>
   <data name="ShowCardTitleText" xml:space="preserve">
     <value>Sorunuzu buraya giriniz (Maks. 50 karakter)</value>
